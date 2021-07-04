@@ -1,0 +1,98 @@
+.wrapper {
+    height: 500px;
+    width: 500px;
+    background: black;
+    position: relative;
+}
+  
+.spotify-logo{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background: #1DB954;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: -2px 5px 3px gray;
+}
+  
+.strip-1{
+    position: absolute;
+    height: 50px;
+    width: 130px;
+    left: 50%;
+    top: 100px;
+    border-radius: 50%;
+    border: 25px solid #191414;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    transform: translate(-50%, -50%) rotate(6deg);
+}
+  
+.strip-1::after{
+    content: "";
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    background: #191414;
+    top: -8.5px;
+    left: -8.5px;
+    box-shadow: 124px -1px #191414;
+}
+  
+.strip-2{
+    position: absolute;
+    height: 50px;
+    width: 105px;
+    left: 48%;
+    top: 140px;
+    border-radius: 50%;
+    border: 20px solid #191414;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    transform: translate(-50%, -50%) rotate(6deg);
+}
+  
+.strip-2::after{
+    content: "";
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: #191414;
+    top: -6px;
+    left: -5.5px;
+    box-shadow: 97.5px -0.5px #191414;
+}
+  
+  
+.strip-3{
+    position: absolute;
+    height: 20px;
+    width: 60px;
+    left: 46%;
+    top: 160px;
+    border-radius: 50%;
+    border:16px solid #191414;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    transform: translate(-50%, -50%) rotate(5deg);
+}
+  
+.strip-3::after{
+    content: "";
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background: #191414;
+    top: -8px;
+    left: -7px;
+    box-shadow: 61px 0px #191414;
+}
